@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="it.improvity.beans.Job" table="jobs">
+		<id name="id" type="java.lang.Long">
+			<column name="id" />
+			<generator class="assigned" />
+		</id>
+		<property name="idarticolo" type="java.lang.Long">
+			<column name="idarticolo" />
+		</property>
+		<property name="referenza" type="java.lang.String">
+			<column name="referenza" />
+		</property>
+		<property name="modello" type="java.lang.String">
+			<column name="modello" />
+		</property>
+		<property name="specifica" type="java.lang.String">
+			<column name="specifica" />
+		</property>
+		<property name="fila" type="java.lang.Long">
+			<column name="fila" />
+		</property>
+		<property name="declinazione" type="java.lang.String">
+			<column name="declinazione" />
+		</property>
+		<property name="punticarato" type="java.lang.Long">
+			<column name="punticarato" />
+		</property>
+		<property name="coloreoro" type="java.lang.String">
+			<column name="coloreoro" />
+		</property>
+		<property name="mappatura" type="java.lang.String">
+			<column name="mappatura" />
+		</property>
+		<property name="r_x" type="java.lang.Long">
+			<column name="r_x" />
+		</property>
+		<property name="r_y" type="java.lang.Long">
+			<column name="r_y" />
+		</property>
+		<property name="directory" type="java.lang.String">
+			<column name="directory" />
+		</property>
+		<property name="render" type="java.lang.Long">
+			<column name="render" />
+		</property>
+		<property name="data_render" type="java.util.Date">
+			<column name="data_render" />
+		</property>
+		<property name="updated_at" type="java.util.Date">
+			<column name="updated_at" />
+		</property>
+	</class>
+</hibernate-mapping>

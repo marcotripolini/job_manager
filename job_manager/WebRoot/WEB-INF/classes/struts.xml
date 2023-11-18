@@ -1,0 +1,32 @@
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+  "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	<!-- Abilitata la funzione di debug di Struts2 -->
+	<constant name="struts.devMode" value="false" />
+	<constant name="struts.action.excludePattern" value="/rpc,/s/rpc,/s/rp*,/rp*" />
+	<constant name="struts.url.escapeAmp" value="false" />
+	<constant name="struts.ognl.allowStaticMethodAccess" value="true" />
+	<constant name="struts.custom.i18n.resources" value="global"/>
+	<constant name="struts.action.extension" value="html"/>
+
+	<package name="General" extends="struts-default,json-default">
+
+		<result-types>
+			<result-type name="json" class="com.googlecode.jsonplugin.JSONResult" />
+		</result-types>
+
+		<default-action-ref name="index" />
+
+		<!-- actions without java class -->
+
+		<!-- actions with java class -->
+
+		<action name="index" class="it.improvity.actions.welcome" method="execute">
+			<result name="success">index.jsp</result>
+		</action>
+
+
+	</package>
+
+</struts>

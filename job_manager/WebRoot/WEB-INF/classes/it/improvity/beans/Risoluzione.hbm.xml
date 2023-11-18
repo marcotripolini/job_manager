@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="it.improvity.beans.Risoluzione" table="risoluzioni">
+		<id name="id" type="java.lang.Long">
+			<column name="id" />
+			<generator class="assigned" />
+		</id>
+		<property name="codice" type="java.lang.String">
+			<column name="codice" />
+		</property>
+		<property name="descrizione" type="java.lang.String">
+			<column name="descrizione" />
+		</property>
+		<property name="x" type="java.lang.Long">
+			<column name="x" />
+		</property>
+		<property name="y" type="java.lang.Long">
+			<column name="y" />
+		</property>
+	</class>
+</hibernate-mapping>

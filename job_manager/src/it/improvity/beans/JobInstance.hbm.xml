@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="it.improvity.beans.JobInstance" table="jobs_instances">
+		<id name="id" type="java.lang.Long">
+			<column name="id" />
+			<generator class="assigned" />
+		</id>
+		<property name="job_id" type="java.lang.Long">
+			<column name="job_id" />
+		</property>
+		<property name="job_agent" type="java.lang.Long">
+			<column name="job_agent" />
+		</property>
+		<property name="job_sequence" type="java.lang.Long">
+			<column name="job_sequence" />
+		</property>
+		<property name="job_name" type="java.lang.String">
+			<column name="job_name" />
+		</property>
+		<property name="job_command" type="java.lang.String">
+			<column name="job_command" />
+		</property>
+		<property name="job_workingdir" type="java.lang.String">
+			<column name="job_workingdir" />
+		</property>
+		<property name="job_file" type="java.lang.String">
+			<column name="job_file" />
+		</property>
+		<property name="job_file_2" type="java.lang.String">
+			<column name="job_file_2" />
+		</property>
+		<property name="job_creation_date" type="java.util.Date">
+			<column name="job_creation_date" />
+		</property>
+		<property name="job_execution_date" type="java.util.Date">
+			<column name="job_execution_date" />
+		</property>
+	</class>
+</hibernate-mapping>

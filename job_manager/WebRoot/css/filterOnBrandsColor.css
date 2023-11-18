@@ -1,0 +1,57 @@
+/* Filtri su marchi -- colori */
+.brand-sidebar {
+}
+.brand-sidebar-wrap {
+    background: rgba(230, 230, 230, 1.0);
+}
+
+.wrap-filters {
+}
+
+.brand-sidebar-title {
+    background: rgba(220, 220, 220, 1.0);
+    color: #707070;
+}
+
+.brand-sidebar-title h3 {
+    color: #707070;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.brand-filter {
+    list-style: none;
+    background: f0f0f0;
+    border: 1px #c6c1ab solid;
+}
+
+.brand-filter > li {
+    color: #707070;
+    background-color: #fff;
+    border-bottom: 1px #c6c1ab solid;
+}
+
+.brand-sidebar-btn {
+
+}
+
+.brand-sidebar-btn > btn {
+
+}
+
+.brand-sidebar-btn > btn:hover {
+
+}
+
+.btn-showAll {
+
+}
+
+.btn-clearFilter {}
+
+.brand-sidebar-btnTitle {}
+
+.brand-sidebar-btnTitle:hover {
+
+}

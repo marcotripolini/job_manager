@@ -1,0 +1,1931 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:ital,wght@0,500;0,700;1,400&display=swap');
+
+
+/*
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:ital,wght@0,500;0,700;1,400&display=swap');
+
+#FFFFFF     Bianco
+#CC2C24     Rosso
+#4D4D4D     Grigio
+#2B2B2B     Nero
+#A79E89     Beige
+#DEDBD3     Grigino
+#C5C7C4     Grigio nuovo (sot. beige)
+
+font-family: 'Kaushan Script', cursive;
+font-family: 'Montserrat', sans-serif;
+
+*/
+
+body, h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Montserrat', sans-serif!important;
+}
+
+body {
+ width: 100vw;
+ overflow-x: hidden!important;
+}
+
+
+.stext-101, .stext-102, .stext-103, .stext-104, .stext-105, .stext-106, .stext-107, .stext-108, .stext-109, .stext-110,
+.stext-111, .stext-112, .stext-113, .stext-114, .stext-115, .stext-116, .stext-117,
+.mtext-101, .mtext-102, .mtext-103, .mtext-104, .mtext-105, .mtext-106, .mtext-107, .mtext-108, .mtext-109, .mtext-110,
+.mtext-111, .mtext-112, .mtext-113, .mtext-114, .mtext-115, .mtext-116, .mtext-117,
+.ltext-101, .ltext-102, .ltext-103, .ltext-104, .ltext-105, .ltext-106, .ltext-107, .ltext-108, .ltext-109, .ltext-110,
+.ltext-111, .ltext-112, .ltext-113, .ltext-114, .ltext-115, .ltext-116, .ltext-117 {
+    font-family: 'Montserrat', sans-serif!important;
+}
+
+.bg0 {
+    background-color: #F8F8F6!important;
+}
+
+.bg1 {
+    background-color:#CC2C24!important;
+}
+
+a{
+   color: #CC2C24!important;
+}
+
+
+section .container {
+   overflow: hidden;
+}
+
+.logo span, .logo-mobile span{
+font-family: 'Kaushan Script', cursive;
+color: #4D4D4D!important;
+top: 40px!important;
+font-size: 1.8em!important;
+margin-left: 2px!important;
+padding-top: 16px;
+}
+
+.logo-mobile span{
+    margin-left: 160px!important;
+    font-size: 1.6em!important;
+}
+
+.logo img {
+    height: 90%!important;
+    width: auto;
+}
+
+.fix-menu-desktop .logo span{
+    padding-top: 10px;
+}
+
+.wrap-menu-desktop .row {
+   width: 100%!important;
+}
+
+.wrap-menu-desktop .col-md-10, .wrap-menu-desktop .col-md-2 {
+    padding-left: 0px;
+    padding-right: 0px;
+ }
+.box-logo {
+    display: inline-table;
+    float: left;
+    max-width: 100px;
+    overflow: hidden;
+}
+
+.box-logo img {
+    max-width: 250px!important;
+    height: auto!important;
+}
+
+.menu-desktop {
+    display: inline-table;
+    position: absolute;
+    width: auto;
+   /* position: absolute!important;
+    float: right!important;
+    right: 25%!important;*/
+    right: 0px!important;
+    float: right;
+}
+
+.main-menu {
+    margin-top: 6px!important;
+}
+
+.main-menu > li > a {
+    font-family: 'Montserrat', sans-serif!important;
+    font-size: 1.1em!important;
+    color: #CC2C24!important;
+    font-weight: 400!important;
+}
+
+
+.sub-menu {
+    list-style-type: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    min-width: 300px;
+    max-width: 320px;
+    background-color: #fff;
+    border-radius: 0px;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    padding: 10px 0;
+    box-shadow: 0 1px 5px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 1px 5px 0px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0 1px 5px 0px rgba(0,0,0,0.2);
+    -o-box-shadow: 0 1px 5px 0px rgba(0,0,0,0.2);
+    -ms-box-shadow: 0 1px 5px 0px rgba(0,0,0,0.2);
+    visibility: hidden;
+    opacity: 0;
+}
+
+.sub-menu > li:hover > a {
+    background-color: #CC2C24!important;
+    color: #FFFFFF!important;
+    border-radius: 0px;
+}
+
+
+.icon-header-noti::after {
+    background-color: #CC2C24!important;
+}
+
+.main-menu > li.active-menu > a {
+   background-color: none!important;
+   background: none!important;
+   font-weight: 700!important;
+}
+
+.wrap-icon-header {
+    margin-top: 26px;
+}
+
+/* ***** hero ***** */
+
+#hero-desktop {
+    display: block!important
+}
+
+
+#hero-mobile {
+    display: none!important;
+}
+
+.gds-hero {
+    display: block!important;
+    position: relative;
+    width: 100vw!important;
+    height: auto;
+    overflow: hidden;
+}
+
+
+.gds-hero-content {
+    display: block;
+    position: absolute;
+    top: 20%!important;
+    left: 10%!important;
+}
+
+.gds-hero-wrapper img{
+    width: 100%!important;
+}
+
+/*
+.gds-dicitura {
+    position: relative;
+    color: #FFFFFF!important;
+    font-family: 'Montserrat', sans-serif!important;
+    text-transform: uppercase!important;
+}
+
+.gds-dicictura span {
+    background-color: #FFFFFF;
+    padding-right: 10px;
+}
+
+.gds-dicitura:after {
+    content:"";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 0.5em;
+    border-top: 1px solid #CC2C24!important;
+    z-index: -1;
+}*/
+
+
+.gds-dicitura, .gds-dicitura-2 {
+    position: relative;
+    color: #FFFFFF!important;
+    font-family: 'Montserrat', sans-serif!important;
+    text-transform: uppercase!important;
+    overflow: hidden;
+    font-size: 1.1em!important;
+}
+
+.gds-dicitura-2 {
+    color: #2B2B2B!important;
+}
+
+.gds-dicitura:after, .gds-dicitura-2:after {
+    content:"";
+    display: inline-block;
+    height: 0.5em;
+    vertical-align: middle;
+    width: 40px;
+    margin-right: -100%;
+    margin-left: 10px;
+    border-top: 2px solid #CC2C24!important; 
+}
+
+.gds-hero h2 {
+    font-family: 'Kaushan Script', cursive!important;
+    margin-top: 25px!important;
+    margin-bottom: 25px!important;
+    font-size: 1.2em!important;
+    color: #CC2C24!important;   
+    font-size: 6.0em!important;
+}
+
+
+.gds-hero-content-2 {
+    display: block;
+    position: absolute;
+    bottom: 20px!important;
+    left: 10%!important;
+}
+
+.carousel-control-prev {
+    left: calc(40% - 50px);
+}
+
+.carousel-control-next {
+    right: calc(60% - 150px);
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    width: 40px;
+    background-size: contain;
+} 
+
+.carousel-control-prev-icon {
+    background-image: url('../images/themes/freccia-sinistra.png');
+}
+
+.carousel-control-next-icon {
+    background-image: url('../images/themes/freccia-destra.png');
+}
+
+.gds-idea-ristorazione {
+    display: block;
+    width: 100%!important;
+    height: auto;
+    background-image: url('../images/themes/background-texture.jpg');
+    background-size: cover!important;
+    background-repeat: repeat-x!important;
+}
+
+
+/* ristorante idea */
+
+
+.gds-idea-ristorazione {
+    display: block;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.carousel-fondo {
+     display: block;
+     position: absolute!important;
+     width: calc(80% - 50px)!important;
+     height: 100%!important;
+     background-color: #4D4D4D;
+     margin-top: 50px;
+}
+
+.carousel-inner {
+    position: relative;
+    width: (80% - 50px);
+    margin-left: 50px;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    position: absolute;
+    top: 100%!important;
+    bottom: -50px!important;
+}
+
+
+.carousel-item img {
+    width: 80%!important;
+}
+
+.gds-idea-ristorazione h2 {
+    font-family: 'Kaushan Script', cursive!important;
+    color: #CC2C24!important;   
+    font-size: 6.0em!important;
+    margin-top: 25px!important;
+}
+
+.gds-idea-ristorazione .testo p {
+    color: #DEDBD3!important;
+    font-size: 1.0em!important;
+    padding-right: 40%!important;
+    line-height: 2.1em;
+    font-weight: 300!important;
+    margin-top: 50px;
+}
+
+.gds-idea-ristorazione .testo-wrapper {
+    margin-top: 50px!important;
+}
+
+
+.box-riso {
+    float: right!important;
+}
+
+
+.box-riso img {
+    width: 100%!important;
+}
+
+
+.gds-home-ingredienti {
+    display: block;
+    width: 100%!important;
+    height: auto;
+    background-image: url('../images/themes/background-texture.jpg');
+    background-size: cover!important;
+    background-repeat: repeat-x!important;
+    padding-top: 50px;
+    /* padding-bottom: 50px; */
+}
+
+
+.gds-home-ingredienti h2 {
+    font-family: 'Kaushan Script', cursive!important;
+    color: #CC2C24!important;   
+    font-size: 6.0em!important;
+    margin-top: 25px!important;
+}
+
+.gds-home-ingredienti .testo p {
+    color: #DEDBD3!important;
+    font-size: 1.0em!important;
+    padding-right: 40%!important;
+    line-height: 2.1em;
+    font-weight: 300!important;
+    margin-top: 50px;
+}
+
+.gds-home-ingredienti .testo-wrapper {
+    margin-top: 50px!important;
+}
+
+
+.btn-primary {
+    color: #fff;
+    background-color: #CC2C24!important;   
+    border-color: #CC2C24!important;    
+    margin-top: 30px!important;
+    border-radius: 2px;
+    text-transform: uppercase!important;
+}
+
+.btn-primary:hover {
+   /* color: #2B2B2B!important;
+    background-color: #C5C7C4!important;   
+    border-color: #2B2B2B!important;    */
+    background-color: #242424!important;   
+    border-color: #242424!important;  
+}
+
+
+/* piatti lomellina */
+
+.home-piatti-lomellina {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+.home-piatti-lomellina img {
+    margin-top: 50px!important;
+    width: 100%!important;
+}
+
+
+/* ristorante sicurezza */
+
+
+.gds-home-sicurezza {
+    padding-top: 100px!important;
+    background-color: #C5C7C4!important;
+}
+
+.griglia-img-sicurezza {
+    display: block;
+    width: 442px;
+}
+
+.griglia-img-sicurezza img {
+    margin-bottom: 18px!important;
+}
+
+
+.gds-home-sicurezza h2 {
+    font-family: 'Kaushan Script', cursive!important;
+    margin-top: 25px!important;
+    margin-bottom: 25px!important;
+    font-size: 1.2em!important;
+    color: #CC2C24!important;   
+    font-size: 6.0em!important;
+}
+
+.gds-home-sicurezza p {
+    color: #2B2B2B!important;    
+}
+
+.gds-home-sicurezza ul {
+    margin-top: 15px!important;
+    margin-left: 20px!important;
+}
+
+.gds-home-sicurezza ul li {
+   list-style-type: square!important;
+   color: #CC2C24!important;
+}
+
+.gds-home-sicurezza ul li span {
+    color: #2B2B2B!important;    
+}
+
+/* app */
+
+.gds-home-app {
+    display: block!important;
+    width: 100%!important;
+    min-height: 700px!important;
+    background-color: #C5C7C4!important;
+    background-image: url(../images/themes/fascia/fascia-app.jpg)!important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    padding-top: 350px;
+}
+
+.gds-home-app img{
+    text-align: center;
+}
+
+.gds-home-app h3 {
+    font-family: 'Kaushan Script', cursive!important;
+    color: #FFFFFF!important;   
+    font-size: 3.0em!important;
+    margin-top: 0px!important;
+}
+
+.app-market img {
+    margin-top: 25px!important;
+    width: 90%!important;
+}
+
+.gds-home-ingredienti img {
+    width: 100%!important;
+
+}
+
+
+/* delivery */
+
+.gds-home-delivery {
+    display: block!important;
+    width: 100%!important;
+    min-height: 700px!important;
+    background-color: #C5C7C4!important;
+    padding-bottom: 50px!important;
+}
+
+.gds-home-delivery h2 {
+    font-family: 'Kaushan Script', cursive!important;
+    margin-top: 25px!important;
+    margin-bottom: 25px!important;
+    font-size: 1.2em!important;
+    color: #CC2C24!important;   
+    font-size: 6.0em!important;
+}
+
+.gds-home-delivery .btn-call {
+    margin-top: 50px!important;
+}
+
+.gds-home-delivery img {
+    width: 100%!important;
+}
+
+.gds-bistrot-page #data_consegna, .gds-bistrot-page #ora_consegna {
+    padding-left: 5px!important;
+    margin-bottom: 30px;
+}
+
+.gds-bistrot-page #ora_consegna {
+    width: 150px!important;
+}
+
+.gds-bistrot-page #btn_asap {
+    position: absolute;
+    float: right;
+    top: 10px!important;
+    left: 200px;
+    margin-bottom: 30px!important;
+}
+
+/* buycart */
+
+
+.background1 {
+    background-color: whitesmoke;
+    padding: 3%;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+    margin-left: 0px!important;
+    margin-right: 0px!important;
+}
+
+.colmobile {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* ritira spesa */
+
+.gds-home-ritiraspesa {
+    background-image: url('../images/themes/background-texture.jpg');
+    background-size: cover!important;
+    background-repeat: repeat-x!important;
+    padding-bottom: 50px;
+}
+
+.gds-home-ritiraspesa h2 {
+    font-family: 'Kaushan Script', cursive!important;
+    margin-top: 25px!important;
+    margin-bottom: 25px!important;
+    font-size: 1.2em!important;
+    color: #CC2C24!important;   
+    font-size: 6.0em!important;
+}
+
+.gds-home-ritiraspesa img {
+    width: 100%!important;
+}
+
+.box-borsa {
+    display: block;
+    width: 100%!important;
+    background-image: url('../images/themes/fascia/fascia-spesa.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    padding-top: 200px;
+    min-height: 650px;
+}
+
+
+.gds-home-ritiraspesa p{
+    color: #DEDBD3!important;
+    font-size: 1.0em!important;
+    padding-right: 40%!important;
+    line-height: 2.1em;
+    font-weight: 300!important;
+}
+
+
+.gds-home-negozi {
+    display: block!important;
+    width: 100%!important;
+    min-height: 100px!important;
+    background-color: #C5C7C4!important;
+    padding-bottom: 50px!important;
+}
+
+.gds-home-negozi h2 {
+    font-family: 'Kaushan Script', cursive!important;
+    margin-top: 25px!important;
+    margin-bottom: 25px!important;
+    font-size: 1.2em!important;
+    color: #CC2C24!important;   
+    font-size: 6.0em!important;
+}
+
+
+.gds-home-negozi-fascia {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+.gds-home-negozi-fascia img {
+    width: 100%;
+}
+
+
+.fascia-risotto{
+    display: block!important;
+    width: 100%;
+    height: auto;
+}
+
+.fascia-risotto img {
+    width: 100%!important;
+}
+
+
+/* marchi */
+
+.marchi-slider {
+    margin-top: 50px;
+}
+
+.marchi-slider .slick-slide img {
+    width: 80%!important;
+}
+
+.marchi-slider .slick-dots {
+    display: none!important;
+}
+
+.marchi-slider .slick-prev, .marchi-slider .slick-next {
+    position: absolute;
+    bottom: -50px!important;
+    width: 40px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.marchi-slider aria-label {
+    display: none!important;
+}
+
+.marchi-slider .slick-prev {
+    background-image: url('../images/themes/freccia-sinistra.png');
+   
+}
+
+.marchi-slider .slick-next {
+    background-image: url('../images/themes/freccia-destra.png');
+}
+
+.marchi-slider .slick-prev {
+    left: calc(50% - 50px);
+}
+
+.marchi-slider .slick-next {
+    right: calc(50% - 150px);
+}
+
+/* home company */
+
+.gds-home-company {
+    background-image: url('../images/themes/background-texture.jpg');
+    background-size: cover!important;
+    background-repeat: repeat-x!important;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.gds-home-company h2 {
+    font-family: 'Kaushan Script', cursive!important;
+    margin-top: 25px!important;
+    color: #CC2C24!important;   
+    font-size: 6.0em!important;
+    text-align: center;
+}
+
+.gds-home-company h2 span {
+    color: #C5C7C4!important;
+}
+
+.fascia-risotto {
+    display: block;
+    width: 100%!important;
+    height: auto;
+}
+
+.gds-home-company-content {
+    display: block;
+    width: 100%;
+    position: absolute;
+    margin-top: 400px;
+}
+
+#googleMap {
+    width:100%;
+    height:500px
+}
+
+
+/* footer */
+
+footer a:hover {
+    color: #CC2C24!important;
+}
+
+footer ul li {
+    font-family: 'Montserrat', sans-serif!important;
+    font-size: 1.0em!important;
+}
+
+footer ul li a{
+    font-family: 'Montserrat', sans-serif!important;
+    font-size: 1.0em!important;
+}
+
+footer h4 span {
+    text-transform: none!important;
+}
+
+footer ul li {
+    margin-bottom: 5px;
+}
+
+footer ul li span {
+    text-transform: uppercase!important;
+}
+
+
+footer input {
+    padding: 3px!important;
+}
+
+
+.btn-back-to-top {
+    background-color: #CC2C24!important; 
+}
+
+.btn-back-to-top:hover {
+    background-color: #C5C7C4!important;   
+    color: #2B2B2B!important;    
+}
+
+
+.logo-mobile img {
+    width: 120px;
+    height: auto;
+  }
+
+.logo-mobile span {
+    margin-left: 120px!important;
+    font-size: 1.1em!important;
+}
+
+.logo-mobile span {
+    font-size: 1.2em!important;
+    margin-top: -65px;
+    padding-top: 35px;
+    position: absolute;
+}
+
+
+.main-menu-m {
+    background-color: #222222!important;
+}
+ 
+
+/* menu di oggi */
+
+.gdsbistrot-body, .gdsbistrot-body .bg0 {
+    background-color: #F8F8F6!important;
+}
+
+.gdsbistrot-body .bg0 {
+    padding-top: 0px;
+}
+
+.gdsbistrot-header, .gdsbistrot-header-2 {
+    display: block!important;
+    width: 100%!important;
+    height: 400px!important;
+    background-color:  #CC2C24!important;
+    background-image: url('../images/themes/header-interno.jpg');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+   
+}
+
+.gdsbistrot-header-2 {
+   margin-top: -100px;
+}
+
+
+.gdsbistrot-header h2, .gdsbistrot-header-2 h2 {
+    font-family: 'Kaushan Script', cursive!important;
+    font-size: 4.0em!important;
+    color: #FFFFFF!important; 
+    text-align: center!important;  
+    padding-top: 190px!important;
+}
+
+.stext-101 {
+   font-family: 'Montserrat', sans-serif!important;
+}
+
+.stext-101, .stext-101 i {
+    font-weight: 300;
+    background-color: transparent!important;
+    background: transparent!important;
+    margin-left: 0px!important;
+}
+
+
+.stext-101:hover, .stext-101:hover i {
+    color: #CC2C24;
+}
+
+.card-title {
+    background-color: transparent!important;
+}
+
+
+h3.card-title, h2.card-title {
+    font-family: 'Kaushan Script', cursive!important;
+    font-size: 3.0em!important;
+    color: #CC2C24;
+    text-align: left!important;  
+    margin-left: 0px!important;
+    padding-left: 0px!important;
+    /* padding-top: 190px!important; */
+}
+
+h2.card-title {
+    margin-top: 70px!important;
+}
+
+.checkmark {
+    height: 30px;
+    width: 30px;
+}
+
+
+.info-btn {
+    color: #FFFFFF!important;
+    padding: 15px 20px;
+    background-color: #242424;
+    font-size: 0.8em;
+    font-family: 'Montserrat', sans-serif!important;
+    text-transform: uppercase!important;
+    border: 2px;
+}
+
+
+.info-btn {
+    display: inline-table!important;
+    float: right!important;
+}
+
+.info-btn:active, .info-btn:hover {
+    background-color: #CC2C24!important;
+}
+
+
+.componi-menu h4 {
+    font-family: 'Montserrat', sans-serif!important;
+    color: #4D4D4D!important;
+    font-size: 1.3em!important;
+    margin-bottom: 30px!important;
+}
+
+
+
+
+.card-style {
+    border-radius: 0px!important;
+}
+
+.acc-btn button {
+    font-family: 'Montserrat', sans-serif!important;
+    font-size: 0.9em!important;
+    text-align: center!important;
+    text-transform: uppercase!important;
+    color: #FFFFFF!important;
+    background: none!important;
+    background-color: #CC2C24!important;
+    border-radius: 0px!important;
+    padding-left: 10px!important;
+    padding-right: 10px!important;
+}
+
+.contenitore input:checked ~ .checkmark {
+    background-color: #CC2C24!important;
+}
+
+.checkmark {
+    height: 25px;
+    width: 25px;
+}
+
+.contenitore {
+    font-family: 'Montserrat', sans-serif!important;
+    color: #4D4D4D!important;
+    font-size: 0.6em!important;
+}
+
+.box-altro .block1-name {
+    font-family: 'Montserrat', sans-serif!important;
+    text-transform: uppercase!important;
+    color: #4D4D4D;
+    font-size: 1.5em!important;
+    height: 50px;
+}
+
+
+.box-altro .block1-info {
+    font-family: 'Montserrat', sans-serif!important;
+    color: #4D4D4D;
+    font-size: 1.1em!important;
+}
+
+
+.box-altro .block1-txt:hover {
+    background-color: rgba(204,44,36,0.5)!important;
+}
+
+
+.block1-txt-child2 {
+    font-family: 'Montserrat', sans-serif!important;
+    font-size: 0.9em!important;
+    text-align: center!important;
+    color: #FFFFFF!important;
+    background: none!important;
+   /* background-color: #CC2C24!important; */
+    border-bottom: 0px!important; 
+}
+
+.block1-txt-child2  .bg0 {
+    background-color: #CC2C24!important;  
+}
+
+
+.block1-txt-child2  .bg0:hover {
+    background-color: #242424!important;  
+}
+
+.gdsbistrot-body  .block1-link .bg0  {
+    padding-top: 5px!important;
+    background-color: transparent!important;
+    color: #FFFFFF!important;
+}
+
+.block1-txt:hover .block1-link {
+    padding-top: 15px!important;
+    color: #FFFFFF!important;
+}
+
+
+.card-content h3 {
+    font-family: 'Montserrat', sans-serif!important;
+    color: #4D4D4D!important;
+    font-size: 0.8em!important;
+    margin-bottom: 0px!important;
+}
+
+
+#mymenu {
+    font-family: 'Montserrat', sans-serif!important;
+    color: #4D4D4D!important;
+    font-size: 0.5em!important;
+    margin-bottom: 10px!important;
+}
+
+
+#custom_menu_price_visible {
+    font-family: 'Montserrat', sans-serif!important;
+    color: #4D4D4D!important;
+    font-size: 1.1em!important;
+    margin-top: 25px!important;
+    font-weight: 700!important;
+}
+
+
+.hov-img0 {
+    background: #FFF;
+}
+
+
+.hov-img0 img {
+    top: 0;
+    bottom: auto;
+    height: 100%!important;
+    width: auto!important;
+}
+
+.hov-cl1:hover {
+    color: #375fa8;
+}
+
+
+.stext-104 {
+   font-family: 'Montserrat', sans-serif!important;
+   color: #4D4D4D!important; 
+   font-size: 1.3em!important;
+   margin-bottom: 7px;
+}
+
+
+.mtext-106 {
+   font-family: 'Montserrat', sans-serif!important;
+   color: #4D4D4D!important; 
+   font-size: 1.5em!important;
+   margin-bottom: 15px;
+}
+
+
+
+/* prenotazioni */
+
+.box-prenotazioni, .box-contatti {
+      padding-top: 50px;
+}
+
+.hov-img0 {
+    border-radius: 0px;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 3px 10px 0 rgba(0,0,0,0.19) !important;
+}
+
+.block2-pic {
+    border-bottom: 0px!important;
+}
+
+.box-prenotazioni p, .box-contatti p  {
+font-family: 'Montserrat', sans-serif!important;
+color: #4D4D4D!important; 
+font-size: 1.3em!important;
+margin-bottom: 50px;
+}
+
+
+.box-prenotazioni #contact-form, .box-contatti #contact-form {
+   padding-right: 50px!important;
+}
+
+.stext-111 {
+    background-color: whitesmoke;
+    border-radius: 0px;
+    font-family: 'Montserrat', sans-serif!important;
+    font-size: 0.7em;
+    line-height: 1.6923;
+}
+
+.mtext-105 {
+    font-family: 'Montserrat', sans-serif!important;
+    font-size: 1.8em;
+}
+
+
+#send_contact_form {
+    background-color: #CC2C24!important;
+}
+
+#send_contact_form:hover {
+    color: #FFFFFF!important;
+}
+
+#colonna-chiara {
+    padding-right: 50px!important;
+}
+
+#colonna-scura {
+    background-color: #222222!important;
+    color: #b2b2b2!important;
+}
+
+#colonna-scura iframe {
+    position: relative!important;
+    margin-top: -30px!important;
+}
+
+#colonna-scura p, #colonna-scura .mtext-110 {
+    color: #b2b2b2!important;
+}
+
+
+#contatti-booking {
+    padding: 50px!important;
+}
+
+
+#contatti-booking p{
+    width: 100%;
+    padding-left: 20px;
+    font-family: 'Montserrat', sans-serif!important;
+    font-size: 1.0em!important;
+    margin-bottom: 30px!important;
+}
+
+#contatti-booking p strong{
+    text-transform: uppercase!important;
+}
+  
+
+#contatti-booking p i {
+    margin-left: -20px!important;
+    margin-right: 5px;
+}
+ 
+#contatti-booking p a {
+   color: #b2b2b2!important;
+}
+
+#contatti-booking p a:hover {
+    color: #CC2C24!important;
+}
+
+
+/* chi siamo  */
+
+#chisiamo h3 {
+    font-family: 'Montserrat', sans-serif!important;
+    color: #4D4D4D!important; 
+    font-size: 1.6em!important;
+    margin-bottom: 20px;
+}
+
+#chisiamo p {
+font-family: 'Montserrat', sans-serif!important;
+color: #4D4D4D!important; 
+font-size: 1.0em!important;
+margin-bottom: 30px;
+}
+ 
+#chisiamo p cite {
+    font-size: 1.5em!important;
+}
+
+
+/* login */
+
+#login-box {
+    padding-top: 100px!important;
+    padding-bottom: 100px!important;
+    font-family: 'Montserrat', sans-serif!important;
+}
+
+#login-box label {
+    color: #4D4D4D!important; 
+}
+
+
+#login-box button {
+    background-color: #CC2C24!important;
+    border-radius: 0px;
+}
+
+
+#login-box p {
+    font-size: 1.2em!important;
+}
+
+#login-box p {
+    font-size: 1.2em!important;
+    line-height: 2.0em!important;
+}
+
+#login-box p a {
+    color: #4D4D4D!important; 
+    font-weight: 700;
+}
+
+#login-box p a:hover {
+   color: #CC2C24!important;
+}
+
+
+/* pagina prodotto */
+
+.sec-product-detail .stext-101 {
+    font-weight: 300;
+    background-color: #CC2C24!important;
+    background: #CC2C24!important;
+    color: #FFFFFF!important;
+    margin-left: 0px!important;
+}
+
+.btn-num-product-up, .btn-num-product-down {
+    width: 30px;
+}
+
+/* bottoni e bottoni hover */
+
+.swal-button, .btn .btn-danger, .btn, #send_contact_form, #login-box button, .swal-button, .btn .btn-danger .hov-btn3, .hov-btn3, .hov-btn1  {
+    background-color: #CC2C24!important;
+    font-family: 'Montserrat', sans-serif!important;
+    font-size: 16px!important;
+    color: #FFFFFF!important;
+    border-radius: 2px!important;
+    text-transform: uppercase!important;
+}
+
+
+
+.wrap-input1 {
+    border-bottom: 0px;
+}
+
+
+button.hov-btn1:hover, a.hov-btn1:hover, #send_contact_form:hover, #login-box button:hover, .swal-button:hover, .btn .btn-danger:hover, .hov-btn3:hover, .hov-btn1:hover {
+    color: #FFFFFF!important;
+    background-color: #242424!important;
+}
+
+.btn-danger {
+    margin-top: 30px;
+}
+
+
+.btn-dager:hover i {
+    color: #FFFFFF!important;
+}
+
+
+#paypal-button-container {
+    margin-top: 30px!important;
+}
+
+/* ricerca */
+
+.wrap-search-header input {
+    font-family: 'Montserrat', sans-serif!important;
+    color: #4D4D4D!important; 
+    font-size: 2.4em!important;
+}
+
+
+/* carrello */
+
+.header-cart-buttons a {
+   border-radius: 2px;
+   background-color: #CC2C24!important;
+}
+
+
+.header-cart-buttons a:hover {
+    background-color: #242424!important;
+    color: #FFFFFF!important;
+}
+    
+.bg-warning {
+    padding: 5px!important;
+}
+
+.bg-warning strong {
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.btn-group .active {
+    background-color: #CC2C24!important;
+    color: white;
+}
+
+.btn-group:hover {
+    background-color: #CC2C24!important;
+}  
+
+
+/* pagina carrello */
+
+.row .row-cart-intestazione, .row .row-cart-dato {
+    margin-left: 0px!important;
+    margin-right: 0px!important;
+}
+
+.cart-intestazione {
+    text-transform: uppercase!important;
+    font-family: 'Montserrat', sans-serif!important;
+    color: #4D4D4D!important; 
+}
+.row-cart-intestazione {
+    border-top: 1px solid #EFEFEF!important;  
+    border-bottom: 1px solid #EFEFEF!important;  
+ }
+
+.row-cart-dato {
+   border-bottom: 1px solid #EFEFEF!important;  
+}
+
+.cart-intestazione, .cart-intestazione-prezzo, .cart-intestazione-quantita {
+    padding: 2px;
+    padding-left: 5px!important;
+    padding-bottom: 5px!important;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.cart-intestazione-prezzo {
+    text-align: right!important;
+    padding-right: 15px;
+}
+
+.cart-intestazione-quantita {
+    text-align: center!important;
+}
+
+.cart-dato {
+    padding: 5px;
+    padding-left: 5px!important;
+    padding-bottom: 5px!important;
+}
+
+.cart-dato-prezzo, .cart-dato-prezzo-tot {
+    padding: 5px;
+    padding-bottom: 5px!important;
+    text-align: right!important;
+    padding-right: 15px!important;
+}
+
+.cart-dato-prezzo-tot {
+    font-weight: bold!important;
+}
+
+.how-itemcart1 {
+    margin-right: 5px!important;
+    margin-left: 20px!important;
+}
+
+.wrap-num-product {
+    border: 0px!important;
+}
+
+.btn-num-product-up1, .btn-num-product-down1 {
+    width: 30px!important;
+}
+
+.bg-warning a{
+    color:#CC2C24;
+
+}
+
+/* delivery */
+
+
+.btn-ordine.active, .btn-ordine2.active, .btn-ordine3.active {
+    background-color: #222222!important;
+}
+
+label.btn.btn-ordine2.btn-light.active, label.btn.btn-ordine.btn-light.active {
+    background-color: #222222!important;
+}
+
+
+.gds-bistrot-page h2 {
+    font-family: 'Montserrat', sans-serif!important;
+    font-size: 1.3em!important;
+    font-weight: 400!important;
+    text-transform: none!important;
+}
+
+
+#data_consegna, #ora_consegna {
+    margin-top: 0px!important;
+    padding: 5px!important;
+    padding-left: 60px!important;
+}
+
+
+.gds-bistrot-page h4 {
+    font-size: 1.1em!important;
+}
+
+input[type=checkbox], input[type=radio] {
+    display: inline-table;
+}
+
+
+table td label {
+    font-family: 'Montserrat', sans-serif!important;
+    font-size: 1.1em!important;
+}
+
+
+.form-control {
+    font-family: 'Montserrat', sans-serif!important;
+    font-size: 1.1rem;
+}
+
+/* form */
+
+input, textarea {
+    border-radius: 2px!important;
+    border: 1px solid #DCDCDC!important;
+    background-color: #FFFFFF!important;
+}
+
+
+/* cookie consent */
+
+.cc-color-override--1254661338 .cc-btn, .cc-link {
+    color: #FFFFFF!important;
+}
+
+
+/* ottimizzazione mobile */
+
+@media only screen and (max-width: 1280px) {
+    .box-logo img {
+        max-width: 200px!important;
+        height: auto!important;
+    }
+
+    .logo span, .logo-mobile span {
+        padding-top: 10px;
+    }
+
+    .main-menu {
+        margin-top: 4px!important;
+    }
+
+    .logo {
+        margin-right: 5px;
+    }
+
+    .wrap-icon-header {
+        margin-top: 20px;
+    }
+
+    .main-menu > li {
+        padding: 15px 8px 8px 0px;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .box-logo img {
+        max-width: 150px!important;
+        height: auto!important;
+    }
+
+    .logo span, .logo-mobile span {
+        font-size: 1.5em!important;
+        padding-top: 9px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .wrap-menu-desktop .container{
+        padding-left: 15px!important;
+        padding-right: 15px!important;
+    }
+
+    .container {
+        padding-left: 50px!important;
+        padding-right: 50px!important;
+    }
+    
+   .gds-idea-ristorazione h2, .gds-home-ingredienti h2, .gds-home-sicurezza h2, .gds-home-ritiraspesa h2, .gds-home-delivery h2  {
+       font-size: 5.0em!important;
+   }
+
+   .gds-idea-ristorazione .testo p {
+       margin-top: 0px!important;
+       padding-right: 20%!important;
+   }
+
+   .carousel-fondo {
+    height: 100%!important;
+    }
+
+    .gds-home-ingredienti .testo p {
+        margin-top: 0px!important;
+        padding-right: 20%!important;
+    }
+
+    .griglia-img-sicurezza {
+        width: 90%!important;
+    }
+
+    .griglia-img-sicurezza img {
+        width: 100%!important;
+    }
+
+    .gds-home-app {
+        background-size: contain;
+        padding-top: 150px!important;
+        min-height: 500px!important;
+    }
+
+    .box-borsa {
+        background-size: contain;
+        background-position: top center;
+        padding-top: 200px;
+        min-height: 450px;
+    }
+
+    .gds-home-ritiraspesa p {
+        padding-right: 20%!important;
+    }
+
+}
+
+@media only screen and (max-width: 1000px) {
+    .gds-hero h2, .gds-idea-ristorazione h2, .gds-home-ingredienti h2, .gds-home-sicurezza h2, .gds-home-ritiraspesa h2, .gds-home-delivery h2  {
+        font-size: 3.7em!important;
+    }
+
+    .gds-home-app h3 {
+        font-size: 2.0em!important;
+    }
+
+    .gds-home-app {
+        padding-top: 100px!important;
+    }
+
+    .gds-home-app img {
+        width: 100%;
+    }
+
+
+    .marchi-slider .slick-prev {
+        left: calc(40% - 25px);
+    }
+    
+    .marchi-slider .slick-next {
+        right: calc(60% - 75px);
+    }
+
+    .main-menu {
+        margin-top: 0px!important;
+    }
+
+    .main-menu > li {
+        padding: 15px 4px 4px 0px
+    }
+
+}
+
+@media only screen and (max-width: 990px) {
+
+    .logo span, .logo-mobile span {
+        font-size: 1.5em!important;
+        padding-top: 30px;
+    }
+
+    .info-btn {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+  
+.wrap-icon-header {
+    margin-top: 0px;
+}
+
+.gds-hero h2, .gds-idea-ristorazione h2, .gds-home-ingredienti h2, .gds-home-sicurezza h2, .gds-home-ritiraspesa h2, .gds-home-delivery h2  {
+    font-size: 3.5em!important;
+}
+
+.gds-dicitura, .gds-dicitura-2 {
+    font-size: 0.9em!important;
+}
+
+
+.carousel-inner {
+    margin-left: 25px;
+}
+
+.carousel-fondo {
+    width: calc(80% - 25px)!important;
+    margin-top: 25px;
+} 
+
+.gds-idea-ristorazione .testo p {
+    padding-right: 10%!important;
+}
+
+ .gds-home-ingredienti .testo p {
+     padding-right: 10%!important;
+ }
+
+
+/*
+.carousel-control-next {
+    right: calc(50% - 100px);
+} */
+
+.carousel-control-next, .carousel-control-prev {
+    bottom: -25px!important;  
+}
+
+.carousel-control-next {
+    right: calc(60% - 120px);
+}
+
+.griglia-img-sicurezza {
+    margin-top: 180px;
+    width: 100%!important;
+    text-align: left!important;
+}
+
+.griglia-img-sicurezza img {
+    width: calc(100%);
+}
+
+.gds-home-app h3 {
+    font-size: 2.0em!important;
+}
+
+.app-logo img {
+    width: 60%!important;
+    margin-left: 40%!important;
+}
+
+.app-market img {
+    width: 60%!important;
+    margin-left: 20%!important;
+}
+
+.gds-home-app h3 {
+    text-align: center!important;
+}
+
+.gds-home-app {
+    padding-top: 120px!important;
+    min-height: 350px!important;
+    padding-bottom: 100px!important;
+}
+
+.gds-home-delivery {
+    min-height: 100px!important;
+}
+
+#spesa-img {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#spesa-img img {
+    width: 90%!important;
+    margin-right: 10%;
+}
+
+#colonna-chiara {
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+}
+
+.how-pos4 {
+    left: 8px;
+}
+
+
+#colonna-scura {
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+    margin-top: 100px;
+}
+
+
+.row-cart-intestazione {
+    display: none!important;
+}
+
+.cart-dato-prezzo {
+    padding: 5px!important;
+    padding-bottom: 5px!important;
+    text-align: left!important;
+}
+
+
+.wrap-slick3-dots {
+    max-height: 350px;
+}
+
+.slick3 {
+    max-height: 450px;
+}
+
+
+
+}
+
+
+
+@media only screen and (max-width: 575px) {
+    #carousel-blocco {
+       margin-top: 50px;
+       padding-bottom: 100px;
+    }
+
+    .gds-home-delivery .btn-call {
+        margin-bottom: 50px!important;
+    }
+
+    .gds-hero-content {
+        display: block;
+        position: absolute;
+        top: 150px!important;
+        left: 10%!important;
+    }
+
+}
+
+@media only screen and (max-width: 540px) {
+
+    #hero-desktop {
+        display: none!important;
+    }
+
+    #hero-mobile {
+        display: block!important;
+    }
+
+    .slick3, .wrap-slick3-dots {
+        max-height: 300px;
+    }
+
+  
+}
+
+@media only screen and (max-width: 500px) {
+
+    #hero-desktop {
+        display: none!important;
+    }
+
+    #hero-mobile {
+        display: block!important;
+        width: 100%;
+        height: auto;
+    }
+
+    #hiro-mobile img {
+        width: 100%!important;
+    }
+
+
+    .gds-hero {
+        top: 0px!important;
+    }
+
+    .gds-hero-content {
+        display: block;
+        position: absolute;
+        top: 100px!important;
+        left: 15px!important;
+      }
+
+
+    .gds-idea-ristorazione {
+        padding-top: 160px!important;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 414px) {
+
+   .container {
+        padding-left: 20px!important;
+        padding-right: 20px!important;
+   }
+
+   .gds-hero h2, .gds-idea-ristorazione h2, .gds-home-ingredienti h2, .gds-home-sicurezza h2, .gds-home-ritiraspesa h2, .gds-home-delivery h2  {
+    font-size: 3.0em!important;
+    }
+
+
+    .gdsbistrot-header h2, .gdsbistrot-header-2 h2 {
+        font-size: 3.0em!important;
+    }
+  
+
+  .gds-idea-ristorazione .testo p, .gds-home-ingredienti .testo p, .gds-home-ritiraspesa p {
+    padding-right: 0%!important;
+  }
+
+
+#carousel-blocco {
+  margin-top: 50px;
+}
+
+.gds-idea-ristorazione .testo-wrapper {
+    padding-bottom: 100px!important;
+}
+
+.carousel-fondo {
+    width: calc(80% - 25px)!important;
+    height: calc(100% + 25px)!important;
+    margin-top: 25px;
+}
+
+.gds-idea-ristorazione {
+    padding-bottom: 0px;
+}
+
+.gds-home-sicurezza {
+    padding-top: 0px;
+}
+
+.griglia-img-sicurezza {
+    width: 100%!important;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.gds-home-app h3 {
+    font-size: 1.5em!important;
+}
+
+.gds-home-app {
+    padding-top: 48px!important;
+    min-height: 250px!important;
+}
+
+.app-market {
+   text-align: center!important;
+}
+
+.app-market img {
+    margin-top: 25px!important;
+    width: 70%!important;
+}
+
+#delivery-img, #spesa-img, #ingredienti-img  {
+    margin-top: 50px!important;
+}
+
+.box-borsa {
+    min-height: 350px;
+}
+
+
+.btn-ordine, .btn-ordine2, .btn-ordine3 {
+    font-size: 0.9em!important;
+}
+
+#data_consegna, #ora_consegna {
+    padding-left: 0px;
+}
+
+#data_di_consegna {
+   margin-top: 10px;
+}
+
+#ora_consegna {
+    margin-bottom: 10px;
+}
+
+.gds-bistrot-page #btn_asap {
+    position: relative;
+    float: left;
+    top: 0px!important;
+    left: 0px;
+    margin-bottom: 30px!important;
+}
+
+
+
+#txt_asap {
+    margin-left: 0px!important;
+    margin-right: 0px!important;
+    margin-top: 10px!important;
+}
+
+}
+
+
+@media only screen and (max-width: 370px) {
+
+.btn-ordine, .btn-ordine2, .btn-ordine3 {
+    font-size: 0.70em!important;
+}
+.logo span, .logo-mobile span {
+    font-size: 1.0em!important;
+    padding-top: 30px;
+    margin-left: 90px!important;
+    margin-top: -60px;
+}
+
+.logo-mobile img {
+    width: 80px;
+    margin-left:5px;
+}
+
+
+}
+
+

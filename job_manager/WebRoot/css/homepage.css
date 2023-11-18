@@ -1,0 +1,163 @@
+body, h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Montserrat', sans-serif!important;
+    background-color:#C5C7C4; 
+}
+
+.gds-bitrot-home {
+    display: block;
+    width: 100vw!important;
+    height: auto;
+    overflow: hidden!important;
+    min-height: 400px;
+}
+
+
+.gds-bistrot-home .row{
+    margin-right: 0px;
+    margin-left:  0px;
+}
+
+.gds-bistrot-home .col-md-6 {
+    margin: 0px!important;
+    padding: 0px!important;
+}
+
+.bistrot-vigevano, .bistrot-novara {
+    display: block;
+    width: 100%;
+    height: 75vh!important; 
+    overflow: hidden!important;
+    text-align: center;
+}
+
+.bistrot-vigevano img, .bistrot-novara img {
+   width: 100%!important;
+   /* filter: blur(5px); */
+   margin-top: -10vh;
+}
+
+
+.home-overlay-1, .home-overlay-2 {
+    display: block;
+    width: 100%;
+    height: 75vh;
+    position: absolute;
+    background-color: rgba(0,0,0,0.0);
+    z-index: 1000;
+    text-align: center!important;
+    padding-top: calc(37vh - 50px)!important;
+}
+
+
+.home-overlay-2 {
+    background-color: rgba(0,0,0,0.0);
+}
+
+
+.home-footer {
+    display: block;
+    width: 100%!important;
+    height: 25vh!important;
+    background-color:#C5C7C4; 
+}
+
+.home-overlay-1 a, .home-overlay-2 a {
+    font-family: 'Kaushan Script', cursive;
+    color: #FFFFFF;
+    font-size: 2.0em;
+    border: 2px solid #FFFFFF!important;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: rgba(0,0,0,0.6)!important;
+}
+
+.home-overlay-1 a:hover, .home-overlay-2 a:hover {
+    background-color: rgba(255,255,255,0.6);
+    color: #4D4D4D!important;
+    border: 2px solid #4D4D4D!important;
+    text-decoration: none!important;
+}
+
+.home-footer {
+    font-family: 'Montserrat', sans-serif!important;
+    text-align: center;
+    font-size: 0.9em!important;
+    padding-top: 50px;
+}
+
+.home-footer div {
+    margin-bottom: 20px;
+    display: block;
+    clear: both;
+}
+
+.home-footer div img {
+    width: 200px!important;
+}
+
+
+@media only screen and (orientation: portrait) {
+
+.bistrot-vigevano, .bistrot-novara {
+    text-align: center!important;
+}
+
+.bistrot-vigevano img, .bistrot-novara img {
+    width: auto!important;
+    height: 75vh!important;
+    filter: blur(0px);
+    margin-top: 0vh;
+ }
+}
+
+
+@media only screen and (max-width: 1600px) and (orientation: landscape) {
+
+    .bistrot-vigevano img, .bistrot-novara img {
+        width: auto!important;
+        height: 75vh!important;
+        margin-top: 0vh;
+     }
+    
+}
+
+
+@media only screen and (orientation: portrait) and (max-width: 1024px) {
+    .bistrot-vigevano img {
+        margin-left: -20vh;
+     }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .home-footer {
+        height: auto!important;
+        padding-bottom: 25px!important;
+        padding-top: 25px;
+    }
+
+}
+
+@media only screen and (orientation: landscape) and (max-width: 768px) {
+
+    .bistrot-vigevano img, .bistrot-novara img {
+        margin-top: -10vh;
+     }
+     
+}
+
+
+
+@media only screen and (max-width: 540px) and (orientation: portrait) {
+.bistrot-vigevano img {
+    margin-left: 0px;
+}
+
+
+@media only screen and (max-width: 300px) {
+
+    .home-overlay-1 a, .home-overlay-2 a {
+        font-size: 1.5em;
+    }
+}

@@ -1,0 +1,192 @@
+/* Filri su marchi */
+@import url('filterOnBrandsColor.css');
+
+/* Sidebar */
+.container .sidebar{}
+
+.sidebar .sdb_holder{margin-bottom:50px;}
+.sidebar .sdb_holder:last-child{margin-bottom:0;}
+
+.brand-sidebar {
+    top: 108px;
+    width: 280px;
+    min-height: 128px;
+    box-sizing: border-box;
+    transition: all 500ms;
+    z-index: 100;
+}
+
+.brand-sidebar-wrap {
+    width: 228px;
+    min-height: 128px;
+    z-index: 101;
+    box-sizing: border-box;
+}
+
+.brand-sidebar-wrap:not('.brand-sidebar-title') {
+    padding: 10px;
+}
+
+.wrap-filters {
+    height: 100%;
+}
+
+.brand-sidebar-title,
+.brand-sidebar-wrap .brand-sidebar-title {
+    padding: -10px -20px 0 -20px !important;
+    min-height: 48px;
+}
+
+.brand-sidebar-title h3 {
+    line-height: 48px;
+    text-align: center;
+}
+
+.brand-filter {
+    padding-left: 0;
+    margin: 10px auto;
+    width: 186px;
+    max-height: 468px;
+    -webkit-overflow-scrolling: touch;
+    overflow-y: scroll;
+    box-sizing: border-box;
+}
+
+.brand-filter::-webkit-scrollbar {
+    width: 6px !important;
+}
+
+.brand-filter::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0);
+    border-radius: 10px;
+}
+
+.brand-filter::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0);
+}
+
+.brand-filter > li {
+    position: relative;
+    left: 0px;
+    width: 100%;
+    margin: auto;
+    padding: 8px 0px;
+    box-sizing: border-box;
+}
+
+.brand-filter > li input[type="checkbox"] {
+    float: left;
+}
+
+.brand-filter > li label {
+    display: block;
+    width: calc(100% - 18px);
+}
+
+.brand-sidebar-btn {
+    position: relative;
+    bottom: 20px;
+    margin-top: 20px;
+    min-height: 64px;
+    width: calc(100% - 40px);
+}
+
+.brand-sidebar-btn > .btn {
+    margin: 0px 20px 10px 20px;
+    padding: 8px 12px;
+    width: calc(100% - 26px);
+    border: 1px #c6c1ab solid;
+    box-sizing: content-box;
+}
+
+.brand-sidebar-btn > .btn:first-child {
+    margin: 10px 20px;
+}
+
+.btn-showAll {}
+
+.btn-clearFilter {}
+
+.brand-sidebar-btnTitle {
+    position: absolute;
+    top: 88px;
+    width: 128px;
+    height: 32px;
+    letter-spacing: 1.6px;
+    background-color: #dddddd;
+    border-top: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-bottom: none;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    outline: none;
+}
+
+/* fob -- Filter On Brands */
+.fob-active,
+.fob-inactive {
+    transition: all 500ms;
+}
+
+.fob-active {}
+
+.fob-inactive {}
+
+/* Fitri su marchi -- posizionamento */
+.fob-static {
+    position: absolute;
+}
+
+.fob-floating {
+    position: fixed;
+}
+
+
+.fob-right {
+    right: 0;
+}
+
+.fob-right .brand-sidebar-wrap {
+    float: right;
+}
+
+.fob-right .brand-sidebar-btnTitle {
+    right: 180px !important;
+    -moz-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
+
+.fob-right.fob-inactive {
+    right: -232px !important;
+}
+
+.fob-left {
+    left: 0;
+}
+
+.fob-left .brand-sidebar-btnTitle {
+    left: 180px !important;
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.fob-left.fob-inactive {
+    left: -232px !important;
+}
+
+@media all and (max-width: 640px) {
+  .brand-filter {
+    width: 196px;
+    max-height: 234px;
+  }
+}

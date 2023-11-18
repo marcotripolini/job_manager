@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="it.improvity.beans.Vetrina" table="vetrine">
+		<id name="id" type="java.lang.Long">
+			<column name="id" />
+			<generator class="assigned" />
+		</id>
+		<property name="description" type="java.lang.String">
+			<column name="description" />
+		</property>
+		<property name="isdebug" type="java.lang.Long">
+			<column name="isdebug" />
+		</property>
+		<property name="site_meta_description"
+			type="java.lang.String">
+			<column name="site_meta_description" />
+		</property>
+		<property name="site_meta_author" type="java.lang.String">
+			<column name="site_meta_author" />
+		</property>
+		<property name="site_meta_copyright" type="java.lang.String">
+			<column name="site_meta_copyright" />
+		</property>
+		<property name="site_meta_keywords" type="java.lang.String">
+			<column name="site_meta_keywords" />
+		</property>
+	</class>
+</hibernate-mapping>
